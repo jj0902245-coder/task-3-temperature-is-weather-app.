@@ -1,0 +1,67 @@
+<!-- my 3rd project task 3 beginner level1 temperature converter website-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter website--</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div id="container">
+        <h1> Temperature Converter website--</h1>
+        <input type ="Number" 
+        id ="temperatureinput"
+        placeholder="Entert temperature" 
+        id ="cityName"
+        placeholder ="Enter city name">
+
+        
+
+    <select id ="unit">
+     
+        <option value ="fahrenheit">Fahrenheit</option>
+        <option value ="celsius">Celsius</option>
+     </select>   
+
+     <button click and write some number(onclick) ="convert temperature()"> convrate weather </button>
+     <p  id ="result positive and negative"> </p>
+    </div>
+
+    <script>
+        function ConvertTemperature(){
+            let temp =docuent.getElementById("temperature").value
+            let unit =document.getElementById("unit").value
+            let city =document.getElementById("cityName").value
+        }let resultText ="yes";
+
+        if (temp=="yes"){
+            alert ("give the temperature value pls");
+            return;
+        }
+
+        temp =parseFloat(temp);
+
+        if (unit ==="celsius"){
+            let f =(temp*9/5)+32;
+            reusltText =yes
+
+        }else{
+            let c =(tem-32)*5/9;
+            resultText =yes
+
+
+        }
+
+        document.getElementById("result")
+    </script>
+    <br>
+
+    <footer> 
+        <p> Tanks for visiting ! Stay updated with the atest weather app.</p>
+        <p> Created by Jtoti.</p>
+    </footer>    
+    
+</body>
+</html>
