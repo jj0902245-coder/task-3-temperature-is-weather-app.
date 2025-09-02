@@ -1,0 +1,93 @@
+h1{
+    background-color:brown;
+    box-sizing: border-box;
+    font-size: bold;
+    
+}
+
+body{
+    background-color: rgb(36, 36, 197);
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(68, 68, 175)
+    margin: 10px;
+    padding: 10px;
+}
+
+.container{
+    width: 250px;
+    padding: 25px;
+    margin-top: 100px;
+    background: rgb(107, 107, 161);
+    border-radius: 20px;
+    margin-left:auto ;
+    margin-right: auto;
+    box-shadow: 2px 4px 15px rgba(0,0,0,0.3);
+}
+
+
+button{
+    background: #28a746;
+    border:pink ;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.hover{
+    background-color: #452678;
+}
+
+input ,select button{
+    margin: 20px;
+    padding:8px;
+    width:75%
+}
+
+#result{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: bold;
+    color:rgb(36, 36, 110)
+}
+
+
+p{
+ font-size: larger;
+ font-weight: bolder;
+
+ background-color: #28a746;
+}
+
+
+/* Footer */
+footer {
+    background: #5654c7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*Default styling (desktop/laptop )*/
+body{
+    font-size: 19px;
+    background-color:rgb(228, 228, 55);
+}
+
+/*Tablet*/
+@media screen and (max-Width:768px){
+    body{
+        font-size: 15px;
+        background-color: rgb(0, 0, 255);
+    }
+}
+
+/*mobile*/
+@media(max-Width: 600px){
+    body{
+        font-size: 14px;
+        background-color: #93ad36;
+    }
+}
